@@ -1,0 +1,16 @@
+name: dysink
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - jupyter
+  - pip:
+    - numpy
+    - pandas
+    - scipy   
+    - cobra
+    - matplotlib
+    - progressbar2
+    - escher
